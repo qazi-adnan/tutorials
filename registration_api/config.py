@@ -8,3 +8,4 @@ class Config:
     # Disable modification tracking (performance boost)
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
+    JWT_EXPIRATION_SECONDS = 1800  # 30 mintues
